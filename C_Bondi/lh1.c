@@ -360,7 +360,7 @@ void initiate()
 
     for (ix = 0; ix < il; ++ix)
     {
-        dm12[ix] = dmej;    // Original dm definition
+        dm12[ix] = dmej;
         // dm12[ix] = 4./3. * PI * rhoej * (float)(pow(ix+1,3.) - pow(ix,3.)) / pow((float)il, 3);
         // Using radius different from 1.
         // dm12[ix] = pow(R,3.) * 4./3. * PI * rhoej * 
