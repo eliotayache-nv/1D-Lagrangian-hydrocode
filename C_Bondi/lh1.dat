@@ -1,0 +1,46 @@
+                      REVERSE SHOCK AT r=0.3
+50000,   nsteps       max number of time steps
+  100,   tmax         max integration time
+   50.,  efac         fireball internal energy / ambient internal energy
+  400,   il           number of grid cells in the fireball
+   2.,   q            artificial viscosity parameter
+   .3,   fmratio      mass ratio ejecta/ambient                      
+    0,   bondi        switch to include bondi accretion
+   0.,   mass         star mass
+
+                      TEST CASE (Bondi)
+200000,  nsteps       max number of time steps
+ 1000,   tmax         max integration time
+   1.,   efac         fireball internal energy / ambient internal energy
+  500,   il           number of grid cells in the fireball
+   2.,   q            artificial viscosity parameter
+   1.,   fmratio      mass ratio ejecta/ambient
+    1,   bondi        switch to include bondi accretion
+   1.,   mass         star mass
+
+                      BONDI ACCRETION
+ 5000,   nsteps       max number of time steps
+  100,   tmax         max integration time
+   1.,   efac         fireball internal energy / ambient internal energy
+    0,   il           number of grid cells in the fireball
+   2.,   q            artificial viscosity parameter
+   1.,   fmratio      mass ratio ejecta/ambient
+    1,   bondi        switch to include bondi accretion
+   1.,   mass         star mass  
+
+                      MAIN SHOCK AT r=0.6
+29500,   nsteps       max number of time steps
+   50,   tmax         max integration time
+  50.,   efac         fireball internal energy / ambient internal energy
+  400,   il           number of grid cells in the fireball
+   2.,   q            artificial viscosity parameter
+  .05,   fmratio      mass ratio ejecta/ambient
+
+                      REVERSE SHOCK AT r=0.8
+50000,   nsteps       max number of time steps
+   50,   tmax         max integration time
+  50.,   efac         fireball internal energy / ambient internal energy
+  400,   il           number of grid cells in the fireball
+   2.,   q            artificial viscosity parameter
+  .05,   fmratio      mass ratio ejecta/ambient
+
