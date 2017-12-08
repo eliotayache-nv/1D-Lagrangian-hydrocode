@@ -11,8 +11,8 @@ This code is based on the Fortran version included in:
 
 These instructions will get you a copy of the project up and running on your local machine for development and usage purposes.
 
-### Prerequisites
-
+<!-- ### Prerequisites
+ -->
 <!-- What things you need to install the software and how to install them
 
 ```
@@ -64,7 +64,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
+<!-- ## Deployment
 
 Add additional notes about how to deploy this on a live system
 
@@ -81,17 +81,20 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 ## Versioning
 
 We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+ -->
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Eliot Ayache** - *Initial work* - [github](https://github.com/eliotayache)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+ -->
 
-## License
+<!-- ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+ -->
+ 
 ## Acknowledgments
 
 This code is based on the Fortran version included in:
