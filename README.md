@@ -9,7 +9,35 @@ This code is based on the Fortran version included in:
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and usage purposes.
+
+### Prerequisites
+
+<!-- What things you need to install the software and how to install them
+
+```
+Give examples
+```-->
+
+
+### Installing
+
+<!-- A step by step series of examples that tell you have to get a development env running
+
+Say what the step will be
+
+```
+Give the example
+```
+
+And repeat
+
+```
+until finished
+```
+
+End with an example of getting some data out of the system or using it for a little demo
+ -->
 
 First, clone the repository:
 
@@ -25,34 +53,11 @@ The main directory contains four sub-folders:
 - Fortran : Contains the lagrangian hydro source code in Fortran
 - Python : Contains plotting procedures
 
+You can compile the code in the C and C_Bondi directories by typing:
 
+		gcc -o lh1 lh1.c
 
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-### Installing
-
-A step by step series of examples that tell you have to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+You now have an up and running version of the code!
 
 ## Running the tests
 
