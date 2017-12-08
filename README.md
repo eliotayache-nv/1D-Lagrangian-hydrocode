@@ -14,11 +14,16 @@ These instructions will get you a copy of the project up and running on your loc
 First, clone the repository:
 
 - Create a directory my_repo on your local machine 
-- run 
+- run: 
 
 		git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
 
+The main directory contains four sub-folders:
 
+- C : Contains the lagrangian hydro source code in C
+- C_Bondi : Same code with Bondi accretion feature
+- Fortran : Contains the lagrangian hydro source code in Fortran
+- Python : Contains plotting procedures
 
 
 
