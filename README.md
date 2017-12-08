@@ -36,7 +36,7 @@ The main directory contains four sub-folders:
 
 You can compile the code in the C and C_Bondi directories by typing:
 ```
-cd C_Bondi 			# moving to C_bondi directory
+cd C_Bondi 		# moving to C_bondi directory
 gcc -o lh1 lh1.c
 ```
 
@@ -49,7 +49,12 @@ Dynamical evolution is computed either in ```C``` or ```C_Bondi```. Plotting is 
 
 ### Compute dynamical evolution
 
+Input values are set up in ```lh1.dat```. After updating these values, just run the code by typing:
+```
+./lh1
+```
 
+Output is saved in ```lh1.out``` and ```lh2.out```.
 
 ### Plotting results
 
