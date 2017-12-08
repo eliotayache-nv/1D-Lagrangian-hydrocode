@@ -36,6 +36,7 @@ The main directory contains four sub-folders:
 
 You can compile the code in the C and C_Bondi directories by typing:
 ```
+cd C_Bondi 			# moving to C_bondi directory
 gcc -o lh1 lh1.c
 ```
 
@@ -43,13 +44,12 @@ You now have an up and running version of the code!
 
 ## Using the code
 
+Dynamical evolution is computed either in ```C``` or ```C_Bondi```. Plotting is done by using the
+```plot.py``` python script located in the directory ```Python```.
+
 ### Compute dynamical evolution
 
-Explain what these tests test and why
 
-```
-Give an example
-```
 
 ### Plotting results
 
