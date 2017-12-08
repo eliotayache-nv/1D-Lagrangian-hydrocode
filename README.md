@@ -43,8 +43,9 @@ First, clone the repository:
 
 - Create a directory my_repo on your local machine 
 - run: 
-
-		git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
+```
+git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
+```
 
 The main directory contains four sub-folders:
 
@@ -54,16 +55,15 @@ The main directory contains four sub-folders:
 - Python : Contains plotting procedures
 
 You can compile the code in the C and C_Bondi directories by typing:
-
-		gcc -o lh1 lh1.c
+```
+gcc -o lh1 lh1.c
+```
 
 You now have an up and running version of the code!
 
-## Running the tests
+## Using the code
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
+### Compute dynamical evolution
 
 Explain what these tests test and why
 
@@ -71,7 +71,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
+### Plotting results
 
 Explain what these tests test and why
 
