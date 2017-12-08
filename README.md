@@ -4,15 +4,22 @@ This lagrangian code follows the adiabatic expansion of a hot spherical bubble i
 medium. The present setup is adjusted to spherical geometry.
 
 This code is based on the Fortran version included in:
+
 				Numerical methods in astrophysics: an Introduction - Peter Bodenheimer
+
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 First, clone the repository:
+
 	- Create a directory my_repo on your local machine 
-	- run: git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
+
+	- run 
+	'''
+	git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
+	'''
 
 
 
