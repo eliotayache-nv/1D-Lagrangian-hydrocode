@@ -480,21 +480,7 @@ void multiallocate(int n)
 
 
 
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-
-
-
-
-
-
-
-
-
-++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* This function empties the buffer associated with a stream                            */
 /*    -> The stream adress is given by the user                                         */
 /*    -> The function doesn't return anything, no errors are handled                    */
