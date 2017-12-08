@@ -42,10 +42,7 @@ End with an example of getting some data out of the system or using it for a lit
 First, clone the repository:
 
 - Create a directory my_repo on your local machine 
-- run: 
-```
-git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
-```
+- run: ```git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo```
 
 The main directory contains four sub-folders:
 
