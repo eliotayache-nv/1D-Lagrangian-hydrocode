@@ -16,7 +16,7 @@ First, clone the repository:
 - Create a directory my_repo on your local machine 
 - run 
 
-	git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
+		git clone https://github.com/eliotayache/1D-Lagrangian-hydrocode my-repo
 
 
 
