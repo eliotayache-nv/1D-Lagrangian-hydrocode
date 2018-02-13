@@ -13,7 +13,7 @@
 /* Acknowledgments                                                                      */
 /*    - This code is based on the Fortran version included in                           */
 /*                  Numerical Methods in astrophysics: An Introduction                  */
-/* */
+/*                                                                                          */
 
 /* ==================================================================================== */
 /* =============================== En tetes necessaires =============================== */
@@ -433,21 +433,7 @@ void multiallocate(int n)
 
 
 
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-
-
-
-
-
-
-
-
-
-++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 /* This function empties the buffer associated with a stream                            */
 /*    -> The stream adress is given by the user                                         */
 /*    -> The function doesn't return anything, no errors are handled                    */

@@ -31,6 +31,7 @@ plt.rcParams['savefig.dpi'] = 200
 # ==================================== Constants ===================================== #
 # ==================================================================================== #
 cells = False
+machSwitch = True
 
 
 
@@ -38,7 +39,7 @@ cells = False
 # ================================ SCRIPT STARTS HERE ================================ #
 # ==================================================================================== #
 
-inputadr = "../results/Last/phys.out"
+inputadr = "../C_Bondi/lh1.out"
 
 
 # Input file:
@@ -49,23 +50,30 @@ print("Done!\n")
 
 
 # Renaming columns:
-colnames = ['it',
+colnames = ['istep',
             't', 
             'ix', 
-            'v',
-            'rho',
-            'p',
-            'D',
-            'm',
-            'E']
+            'fm(ix)',
+            'r(ix)/r(nx)',
+            'u(ix)',
+            'rho(ix)',
+            'p(ix)',
+            'eps(ix)',
+            'w(ix)',
+            'ix=1',
+            'nx']
 for i in range(len(data.columns)):
     data.rename_column(data.colnames[i],colnames[i])
 
 
+# In the case of values normalised by c_s and r_s:
+if machSwitch:
+    cs = np.sqrt(4./3. * data['p(ix)'] / (data['rho(ix)']+1e-15))
+    condiSound = (cs != 0.)
+    data['u(ix)'][condiSound] /= cs[condiSound]
+
+
 # Plotting
-# ----------------------------------------------------- #
-# Create a directory Plots                              #
-# ----------------------------------------------------- #
 os.system("rm -f shock_*")
 finished = False
 startPos = 0
